@@ -20,7 +20,7 @@ class QuickChart {
 
     generarString() {
         let url = "https://quickchart.io/chart?chl=" + this.crearCadunos() +
-                  "&cht=p3&chs=500x250&chco=" + s + "&chd=t:" + this.d;
+                  "&cht=p3&chs=500x250&chco=" + "1/"  + this.d;
         return url;
     }
 }
@@ -31,3 +31,4 @@ document.getElementById("contenido").innerHTML = "<img src='" + q.generarString(
 // '<img src="https://quickchart.io/chart?chl=1&chichche=500x250&chli=4/4">';
 
 // q.generarString();
+
