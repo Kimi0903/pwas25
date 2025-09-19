@@ -2,7 +2,7 @@
 // http://localhost:PWA3257/index.html?m=1&s4
 const params = new URLSearchParams(window.location.search);
 const n = params.get('n');
-const s = params.get('s');
+const d = params.get('d');
 
 class QuickChart {
     constructor(d) {
@@ -29,4 +29,5 @@ class QuickChart {
 let q = new QuickChart(d);
 document.getElementById("contenido").innerHTML = "<img src='" + q.generarString() + "' />";
 // '<img src="https://quickchart.io/chart?chl=1&chichche=500x250&chli=4/4">';
+
 // q.generarString();
