@@ -2,23 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manisfest" href="manifest.json">
     <title>PWA 11 Sep 25</title>
 </head>
 <body>
-    
+    <h1>Hola</h1>
+    <img src="unicorn.jpg" />
     <div id="contenido">
 
     </div>
 
     <div>
         <a href="javascript:void(0)" onclick="exhibirLineas()" Exhibir Lineas/a>
-        <canvas></canvas>
+        <canvas id="lienzo" width="400" height="300" style="border:1px solid #000000"</canvas>
     </div>
 
-    <script async ></script>
-    <script async ></script>
+    <script async src=lib1.js ></script>
+    <script async src=lib2.js></script>
 
     <script>
         if ('serviceWorker' in navigator) {
@@ -37,3 +37,4 @@
 </body>
 
 </html>
+
