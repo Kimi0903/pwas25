@@ -32,3 +32,4 @@ document.getElementById("contenido").innerHTML = "<img src='" + q.generarString(
 
 // q.generarString();
 
+
